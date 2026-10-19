@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دليل التصحيح الشامل ونموذج الإجابات المعدل - الامتحان الوزاري</title>
+    <title>مفتاح الإجابات النموذجية - اختبار وحدة اللغة العربية (الصف العاشر)</title>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-         :root {
+        :root {
             --bg-color: #0a0a12;
             --card-bg: #121220;
             --neon-cyan: #00f3ff;
@@ -16,27 +15,28 @@
             --neon-green: #39ff14;
             --text-color: #ffffff;
             --text-dim: #a0a0c0;
-            --error-red: #ff3366;
             --gold: #ffd700;
         }
-        
+
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             font-family: 'Tajawal', sans-serif;
         }
-        
+
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
             padding: 30px 15px;
             line-height: 1.6;
-            background-image: radial-gradient(circle at 15% 15%, rgba(0, 243, 255, 0.08) 0%, transparent 40%), radial-gradient(circle at 85% 85%, rgba(255, 0, 127, 0.08) 0%, transparent 40%);
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(0, 243, 255, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(255, 0, 127, 0.08) 0%, transparent 40%);
         }
-        
+
         .container {
-            max-width: 1150px;
+            max-width: 1100px;
             margin: 0 auto;
             background: var(--card-bg);
             border: 2px solid var(--neon-purple);
@@ -44,315 +44,124 @@
             border-radius: 20px;
             padding: 30px;
         }
-        
+
         h1 {
             color: var(--neon-cyan);
             text-align: center;
-            font-size: 2.2rem;
+            font-size: 2.1rem;
             margin-bottom: 10px;
             text-shadow: 0 0 10px var(--neon-cyan);
         }
-        
+
         .subtitle {
             text-align: center;
             color: var(--text-dim);
             margin-bottom: 30px;
             font-size: 1.1rem;
         }
-        
-        .section-header {
-            color: var(--gold);
-            border-right: 4px solid var(--gold);
-            padding-right: 12px;
-            margin: 35px 0 15px 0;
-            font-size: 1.4rem;
-            text-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
-        }
-        
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 15px;
             margin-bottom: 30px;
         }
-        
-        th,
-        td {
+
+        th, td {
             padding: 12px 15px;
             border: 1px solid #2a2a48;
             text-align: right;
             vertical-align: middle;
             font-size: 0.95rem;
         }
-        
+
         th {
             background: #1e1e36;
             color: var(--neon-cyan);
             font-size: 1rem;
             text-align: center;
         }
-        
+
         tr:nth-child(even) {
             background: #161628;
         }
-        
+
         tr:hover {
             background: #1f1f38;
         }
-        
-        .sub-field {
-            color: var(--neon-pink);
-            font-weight: bold;
-            display: block;
-            margin-bottom: 3px;
-        }
-        
+
         .q-num {
             text-align: center;
             font-weight: bold;
             color: var(--neon-cyan);
-            width: 50px;
+            width: 60px;
         }
-        
-        .correct-opt {
+
+        .correct-ans {
             color: var(--neon-green);
             font-weight: bold;
             background: rgba(57, 255, 20, 0.1);
-            padding: 3px 8px;
-            border-radius: 5px;
+            padding: 4px 10px;
+            border-radius: 6px;
             border: 1px solid var(--neon-green);
             display: inline-block;
         }
-        
-        .badge-full {
-            color: var(--neon-green);
-            font-weight: bold;
-        }
-        
-        .badge-zero {
-            color: var(--error-red);
-            font-weight: bold;
+
+        .explanation {
+            color: var(--text-dim);
+            font-size: 0.88rem;
         }
     </style>
 </head>
-
 <body>
 
-    <div class="container">
-        <h1>دليل التصحيح ونموذج الإجابات المعدل 📋</h1>
-        <p class="subtitle">جدول معايير الاحتساب العادل لجميع أسئلة الامتحان الـ 30 (20 موضوعي + 10 إنشائي)</p>
+<div class="container">
+    <h1>مفتاح الإجابات النموذجية والشرح 🗝️</h1>
+    <p class="subtitle">دليل الإجابات الصحيحة والتسويغ النحوي والدلالي لاختبار وحدة (ثقافة الاعتذار وأسلوب الشرط) - 30 سؤالاً</p>
 
-        <!-- القسم الأول: الأسئلة الموضوعية (ضع دائرة) -->
-        <div class="section-header">القسم الأول: الأسئلة الموضوعية - ضع دائرة (20 سؤالاً - 20 علامة)</div>
-        <table>
-            <thead>
-                <tr>
-                    <th class="q-num">السؤال</th>
-                    <th style="width: 45%;">موضوع السؤال والنص المستهدف</th>
-                    <th style="width: 35%;">الإجابة النموذجية الصحيحة</th>
-                    <th style="width: 15%;">معيار الاحتساب</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="q-num">1</td>
-                    <td>معنى كلمة (تثريب) في قوله تعالى: ﴿لا تَثْرِيبَ عَلَيْكُمُ﴾</td>
-                    <td><span class="correct-opt">لوم وعتب وتوبيخ</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">2</td>
-                    <td>المعنى السياقي لكلمة (أسَفاً) في قوله تعالى: ﴿غَضْبَانَ أَسِفًا﴾</td>
-                    <td><span class="correct-opt">شديد الحزن والغضب</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">3</td>
-                    <td>دلالة قول إخوة يوسف: ﴿لَقَدْ آثَرَكَ اللَّهُ عَلَيْنَا﴾</td>
-                    <td><span class="correct-opt">الإقرار والاعتراف بالفضل والخطأ</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">4</td>
-                    <td>الجذر اللغوي المجرد لكلمة (تَفَنِّدُونِ)</td>
-                    <td><span class="correct-opt">فند</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">5</td>
-                    <td>الجذر اللغوي المجرد لكلمة (آثَرَكَ)</td>
-                    <td><span class="correct-opt">أثر</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">6</td>
-                    <td>المعنى الصرفي والسياقي لـ (بِضَاعَةٍ مُزْجَاةٍ)</td>
-                    <td><span class="correct-opt">قليلة ودنيئة ورديئة</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">7</td>
-                    <td>الأداة المعربة الوحيدة من أدوات الشرط الجازمة</td>
-                    <td><span class="correct-opt">أيّ</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">8</td>
-                    <td>علامة جزم الفعل المضارع الصحيح الآخر في أسلوب الشرط</td>
-                    <td><span class="correct-opt">السكون الظاهر</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">9</td>
-                    <td>علامة جزم الفعل المضارع معتل الآخر في أسلوب الشرط</td>
-                    <td><span class="correct-opt">حذف حرف العلة</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">10</td>
-                    <td>علامة جزم الأفعال الخمسة في أسلوب الشرط</td>
-                    <td><span class="correct-opt">حذف النون</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">11</td>
-                    <td>إحدى الأدوات الآتية تُعدّ أداة شرط غير جازمة</td>
-                    <td><span class="correct-opt">لو</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">12</td>
-                    <td>إحدى الأدوات الآتية تُعدّ أداة شرط جازمة</td>
-                    <td><span class="correct-opt">مَتَى</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">13</td>
-                    <td>الجملة التي احتوت على أسلوب شرط جازم صحيح</td>
-                    <td><span class="correct-opt">مَنْ يتقِ الله يجعلْ له مخرجاً</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">14</td>
-                    <td>الجملة التي تُمثّل أسلوباً خبرياً</td>
-                    <td><span class="correct-opt">يقع البحر الميت في الأردن</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">15</td>
-                    <td>الجملة التي تُمثّل أسلوباً إنشائياً</td>
-                    <td><span class="correct-opt">حافظوا على نظافة مدرستكم</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">16</td>
-                    <td>الأسلوب الخبري في البلاغة العربية هو ما يحتمل</td>
-                    <td><span class="correct-opt">الصدق أو الكذب لذاته</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">17</td>
-                    <td>الرسالة الشخصية الإلكترونية تُعدّ من المهارات الموجهة لـ</td>
-                    <td><span class="correct-opt">الأقارب والأصدقاء والزملاء</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">18</td>
-                    <td>من أهم العناصر الفنية لكتابة رسالة الاعتذار الناجحة</td>
-                    <td><span class="correct-opt">بيان الخطأ والندم وطلب الصفح</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">19</td>
-                    <td>الميزة الأساسية للرسائل الإلكترونية مقارنة بالورقية</td>
-                    <td><span class="correct-opt">سرعة الإرسال وإمكانية إرفاق الملفات</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-                <tr>
-                    <td class="q-num">20</td>
-                    <td>دلالة إلقاء سيدنا موسى للألواح وأخذه برأس أخيه يجره إليه</td>
-                    <td><span class="correct-opt">شدة الغضب والغيرة على شريعة الله</span></td>
-                    <td style="text-align:center;"><span class="badge-full">1.0 علامة</span> / <span class="badge-zero">0.0</span></td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- القسم الثاني: الأسئلة الإنشائية (المعدلة بنظام تصحيح مستقل وعادل لكل فرع) -->
-        <div class="section-header">القسم الثاني: الأسئلة الإنشائية والإعراب والاستخراج (10 أسئلة - 10 علامات)</div>
-        <table>
-            <thead>
-                <tr>
-                    <th class="q-num">السؤال</th>
-                    <th style="width: 25%;">نص السؤال والمطالب</th>
-                    <th style="width: 30%;">الإجابة النموذجية الكاملة</th>
-                    <th style="width: 45%;">معايير الاحتساب العادل والمنفصل (لكل فرع 0.5 علامة)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="q-num">س1</td>
-                    <td><b>استخراج أسلوب شرط جازم وأركانه:</b><br><span class="sub-field">1. الأداة وفعل الشرط</span><br><span class="sub-field">2. جواب الشرط</span></td>
-                    <td>1. الأداة وفعل الشرط: <b>مَنْ يَغْفِرْ</b>.<br>2. جواب الشرط: <b>يَنَلْ</b>.</td>
-                    <td>• كتابة الأداة والفعل في الفراغ الأول = <b>0.5</b>.<br>• كتابة جواب الشرط في الفراغ الثاني = <b>0.5</b>.<br>• <i>ملاحظة:</i> دمج الجملة كاملة في فراغ واحد يلغي احتساب الفرع الآخر لعدم توزيع الأركان بدقة.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س2</td>
-                    <td><b>إعراب الفعلين:</b><br><span class="sub-field">1. إعراب (يَغْفِرْ)</span><br><span class="sub-field">2. إعراب (يَنَلْ)</span></td>
-                    <td>1. فعل مضارع مجزوم (فعل الشرط) وعلامة جزمه السكون.<br>2. فعل مضارع مجزوم (جواب الشرط) وعلامة جزمه السكون.</td>
-                    <td>• إعراب الفعل الأول صحيح في مكانه = <b>0.5</b>.<br>• إعراب الفعل الثاني صحيح في مكانه = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س3</td>
-                    <td><b>المعاور والدلالات:</b><br><span class="sub-field">1. بمعنى الذنب/الخطأ</span><br><span class="sub-field">2. بمعنى الطهارة/النقاء</span></td>
-                    <td>1. <b>زَلَّةَ</b>.<br>2. <b>زَكاءَ</b>.</td>
-                    <td>• استخراج الكلمة الأولى بدقة = <b>0.5</b>.<br>• استخراج الكلمة الثانية بدقة = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س4</td>
-                    <td><b>الأساليب البلاغية:</b><br><span class="sub-field">1. أسلوب خبري</span><br><span class="sub-field">2. أسلوب إنشائي</span></td>
-                    <td>1. «إنَّ أدَبَ الاعْتِذَارِ...»<br>2. «لَا تَثْرِيبَ عَلَيْكُمُ»</td>
-                    <td>• استخراج الخبري صحيح = <b>0.5</b>.<br>• استخراج الإنشائي صحيح = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س5</td>
-                    <td><b>التحليل والفهم:</b><br><span class="sub-field">أثر التسامح في تماسك المجتمع</span></td>
-                    <td>نشر المودة والمحبة، إزالة الأحقاد، وتقوية تماسك أبناء المجتمع الواحد.</td>
-                    <td>• ذكر أركان المعنى والتحليل كاملة = <b>1.0</b>.<br>• إجابة جزئية مختصرة = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س6</td>
-                    <td><b>الجذور اللغوية:</b><br><span class="sub-field">1. جذر (اعترفوا)</span><br><span class="sub-field">2. جذر (التسامح)</span></td>
-                    <td>1. <b>عَرَفَ</b>.<br>2. <b>سَمَحَ</b>.</td>
-                    <td>• الجذر الأول صحيح = <b>0.5</b>.<br>• الجذر الثاني صحيح = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س7</td>
-                    <td><b>التركيب والصياغة:</b><br><span class="sub-field">صياغة جملة شرط بـ (إنْ)</span></td>
-                    <td>«إنْ تَدْرُسْ تَنْجَحْ» أو ما يشابهها من جمل صحيحة الأركان.</td>
-                    <td>• جملة تامة صحيحة الأركان والجزم = <b>1.0</b>.<br>• جملة صحيحة بدون جزم أو ناقصة الأركان = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س8</td>
-                    <td><b>الشرح والدلالة:</b><br><span class="sub-field">معنى ﴿لا تثريب عليكم﴾</span></td>
-                    <td>لا لوم ولا عتب ولا توبيخ، وإعلان الصفح والتسامح.</td>
-                    <td>• ذكر المعنى الدقيق الشامل = <b>1.0</b>.<br>• ذكر جزء من المعنى (عفو أو لا لوم) = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س9</td>
-                    <td><b>المهارات الكتابية:</b><br><span class="sub-field">1. العنصر الأول</span><br><span class="sub-field">2. العنصر الثاني</span></td>
-                    <td>1. الاعتراف بالخطأ والندم الصريح.<br>2. طلب الصفح والمغفرة بلغة مؤدبة.</td>
-                    <td>• ذكر العنصر الأول = <b>0.5</b>.<br>• ذكر العنصر الثاني = <b>0.5</b>.</td>
-                </tr>
-                <tr>
-                    <td class="q-num">س10</td>
-                    <td><b>الضبط اللغوي:</b><br><span class="sub-field">1. حركة كلمة (أدب)</span><br><span class="sub-field">2. حركة كلمة (زلة)</span></td>
-                    <td>1. <b>الضمة</b> (أدَبُ).<br>2. <b>الفتحة</b> (زَلَّةَ).</td>
-                    <td>• ضبط الكلمة الأولى صحيح = <b>0.5</b>.<br>• ضبط الكلمة الثانية صحيح = <b>0.5</b>.</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="q-num">#</th>
+                <th style="width: 40%;">موضوع السؤال والنص</th>
+                <th style="width: 30%;">الإجابة النموذجية الصحيحة</th>
+                <th style="width: 24%;">التسويغ والتوضيح</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td class="q-num">1</td><td>معنى كلمة (مرجاة) في الآية الكريمة</td><td><span class="correct-ans">أجّله وأخّره</span></td><td class="explanation">الإرجاء في اللغة هو التأخير والتأجيل.</td></tr>
+            <tr><td class="q-num">2</td><td>الجذر اللغوي لكلمة (مرجاة)</td><td><span class="correct-ans">رجو</span></td><td class="explanation">الجذر الثلاثي المجرد المتصل هو (رَجَوَ).</td></tr>
+            <tr><td class="q-num">3</td><td>المقصود بالتركيب ﴿سُقِطَ فِي أَيْدِيهِمْ﴾</td><td><span class="correct-ans">اشتد ندمهم وعلموا أنهم قد ضلوا</span></td><td class="explanation">تعبير قرآني يكني عن شدة الندم والحسرة.</td></tr>
+            <tr><td class="q-num">4</td><td>اعتذار إخوة يوسف عند الاعتراف بالخطأ</td><td><span class="correct-ans">الخياران (أ) و (ب) معاً</span></td><td class="explanation">اعتذروا لأخيهم يوسف ولأبيهم يعقوب عليهما السلام.</td></tr>
+            <tr><td class="q-num">5</td><td>معنى قوله ﴿لَا تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ﴾</td><td><span class="correct-ans">لا لوم ولا توبيخ ولا تعيير عليكم اليوم</span></td><td class="explanation">التثريب هو العتب واللوم وإشاعة الخطأ.</td></tr>
+            <tr><td class="q-num">6</td><td>اعتذار سيدنا موسى للعبد الصالح في المرة الأولى</td><td><span class="correct-ans">﴿لَا تُؤَاخِذْنِي بِمَا نَسِيتُ وَلَا تُرْهِقْنِي مِنْ أَمْرِي عُسْرًا﴾</span></td><td class="explanation">اعتذار بالنسيان عند خرق السفينة.</td></tr>
+            <tr><td class="q-num">7</td><td>دلالة فعل موسى مع هارون ﴿وَأَلْقَى الْأَلْوَاحَ...﴾</td><td><span class="correct-ans">الغضب الشديد والغيرة على دين الله</span></td><td class="explanation">غيرة على التوحيد بعد عبادة قومه العجل.</td></tr>
+            <tr><td class="q-num">8</td><td>معنى كلمة (تفندون) في سورة يوسف</td><td><span class="correct-ans">تنسبونني إلى السفه وتستخفون برأيي لكبر سني</span></td><td class="explanation">التفنيد هو التخطيء ونسبة الشخص إلى الخرف.</td></tr>
+            <tr><td class="q-num">9</td><td>عدد المرات التي اعتذر فيها موسى للعبد الصالح</td><td><span class="correct-ans">مرتان اثنتان</span></td><td class="explanation">الأولى بالنسيان، والثانية بشرط الفراق عند التكرار.</td></tr>
+            <tr><td class="q-num">10</td><td>البلاغة في ﴿أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ﴾</td><td><span class="correct-ans">التعجب والإنكار والتوبيخ</span></td><td class="explanation">استفهام خرج إلى معاني التوبيخ والإنكار.</td></tr>
+            <tr><td class="q-num">11</td><td>معنى كلمة (نكرا) عند خرق السفينة</td><td><span class="correct-ans">أمراً منكراً فظيعاً وعظيماً وخارجاً عن المألوف</span></td><td class="explanation">النُّكْر هو الأمر المُنْكَر الشديد.</td></tr>
+            <tr><td class="q-num">12</td><td>العبرة الأخلاقية من ﴿هَذَا فِرَاقُ بَيْنِي وَبَيْنِكَ﴾</td><td><span class="correct-ans">أهمية الالتزام بالشروط والاعتذار عند الإخلال بها وتحديد نهاية للعلاقة عند نفاذ العذر</span></td><td class="explanation">بلوغ العُذْر نهايته ونفاذ الشرط المتفق عليه.</td></tr>
+            <tr><td class="q-num">13</td><td>التكوين الصحيح لأركان أسلوب الشرط</td><td><span class="correct-ans">أداة الشرط + فعل الشرط + جواب الشرط</span></td><td class="explanation">الترتيب النحوي الأصلي لتركيب الشرط.</td></tr>
+            <tr><td class="q-num">14</td><td>أداة تُعدّ حرف شرط جازم لا اسم شرط</td><td><span class="correct-ans">إنْ</span></td><td class="explanation">(إنْ) و(إذْما) حرفان جازمان، وباقي الأدوات أسماء.</td></tr>
+            <tr><td class="q-num">15</td><td>إعراب الفعل (يَأْمَنِ) في الشاهد الشعري</td><td><span class="correct-ans">فعل مضارع مجزوم وعلامة جزمه السكون وحُرّك بالكسر لمنع التقاء الساكنين</span></td><td class="explanation">أصله (يَأْمَنْ) والجزم بالسكون، وحرك لالتقاء الساكنين مع التعريف.</td></tr>
+            <tr><td class="q-num">16</td><td>نوع الأداة وإعراب الفعل في "مَنْ يَصْدُقْ يُحْبَبْ"</td><td><span class="correct-ans">اسم شرط جازم، وفعل الشرط مضارع مجزوم بالسكون</span></td><td class="explanation">(مَنْ) اسم شرط يجزم فعلين مضارعين.</td></tr>
+            <tr><td class="q-num">17</td><td>علامة جزم الفعل (يَبْتَغِ) المعتل الآخر</td><td><span class="correct-ans">حذف حرف العلة (الياء)</span></td><td class="explanation">الفعل معتل الآخر يُجزم بحذف حرف العلة.</td></tr>
+            <tr><td class="q-num">18</td><td>علامة جزم الفعل (تَعْمَلُوا)</td><td><span class="correct-ans">حذف النون لأنه من الأفعال الخمسة</span></td><td class="explanation">الأفعال الخمسة تُجزم بحذف النون.</td></tr>
+            <tr><td class="q-num">19</td><td>إعراب الفعل (تُؤْتَ) في جواب الشرط</td><td><span class="correct-ans">جواب الشرط مجزوم وعلامة جزمه حذف حرف العلة من آخره</span></td><td class="explanation">أصله (تُؤْتَى) وهو مبني للمجهول مجزوم بـ (متى).</td></tr>
+            <tr><td class="q-num">20</td><td>الأداة الجازمة من بين الأدوات غير الجازمة</td><td><span class="correct-ans">أَيْنَمَا</span></td><td class="explanation">(أينما) جازمة للمكان، بينما (إذا، لو، كلما) غير جازمة.</td></tr>
+            <tr><td class="q-num">21</td><td>الجملة الصائغة لأسلوب الشرط بدقة نحوياً</td><td><span class="correct-ans">مَهْمَا يَعْلُ المَوْجُ تَجْرِ السَّفِينَةُ</span></td><td class="explanation">جزم فعل الشرط (يعلُ) وجوابه (تجرِ) بحذف حرف العلة.</td></tr>
+            <tr><td class="q-num">22</td><td>سبب الخطأ في تكرار (كلما)</td><td><span class="correct-ans">تكرار أداة الشرط غير الجازمة (كلما) في جواب الشرط والصواب عدم تكرارها</span></td><td class="explanation">لا يجوز تكرار (كلما) مرتين في جملة الشرط الواحدة.</td></tr>
+            <tr><td class="q-num">23</td><td>من خصائص أسلوب الشرط وجملته</td><td><span class="correct-ans">ترابط جملتين بحيث لا تتحقق الثانية إلا بتحقق الأولى</span></td><td class="explanation">الربط التلازمي بين السبب والنتيجة.</td></tr>
+            <tr><td class="q-num">24</td><td>إعراب كلمة (خَاطِئِينَ) في الآية</td><td><span class="correct-ans">خبر كان منصوب وعلامة نصبه الياء لأنه جمع مذكر سالم</span></td><td class="explanation">(نا) اسم كان، و(خاطئين) خبرها المنصوب بالياء.</td></tr>
+            <tr><td class="q-num">25</td><td>الفرق بين (إنْ) الحرف و(مَنْ) الاسم</td><td><span class="correct-ans">(إنْ) حرف شرط لا محل له من الإعراب، و(مَنْ) اسم شرط مبني له موقع إعرابي</span></td><td class="explanation">الحروف لا محل لها من الإعراب بخلاف الأسماء.</td></tr>
+            <tr><td class="q-num">26</td><td>الميزان الصرفي لكلمة (تفندون)</td><td><span class="correct-ans">تُفَعِّلُونِ</span></td><td class="explanation">من الفِعْل (فَنَّدَ) على وزن (فَعَّلَ).</td></tr>
+            <tr><td class="q-num">27</td><td>جملة تحتوي على أداة شرط جازمة للزمان</td><td><span class="correct-ans">أَيَّانَ تَقُمْ أَقُمْ مَعَكَ</span></td><td class="explanation">(أَيَّانَ) اسم شرط جازم يدل على الزمان.</td></tr>
+            <tr><td class="q-num">28</td><td>التقدير النحوي لجملة اقتران الجواب بالفاء</td><td><span class="correct-ans">تكون الجملة في محل جزم جواب الشرط</span></td><td class="explanation">إذا اقترن جواب الشرط بالفاء للأداة الجازمة فالجملة في محل جزم.</td></tr>
+            <tr><td class="q-num">29</td><td>دلالة استخدام الماضي مع (لَوْ)</td><td><span class="correct-ans">امتداد التحقق والثبوت أو امتناع الشيء لامتناع غيره</span></td><td class="explanation">(لو) حرف امتناع لامتناع يدل على امتناع الجواب لامتناع الشرط.</td></tr>
+            <tr><td class="q-num">30</td><td>الوجه النحوي للجواب معتل الآخر مع الجازم</td><td><span class="correct-ans">يُجزم بحذف حرف العلة من آخره وجوباً</span></td><td class="explanation">قاعدة جزم الفعل المضارع معتل الآخر في جواب الشرط.</td></tr>
+        </tbody>
+    </table>
+</div>
 
 </body>
-
 </html>
